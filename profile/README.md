@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://monad.xyz">Monad Testnet</a> · <a href="https://github.com/hungernads/monorepo">Monorepo</a> · <a href="https://github.com/hungernads/skills">Claude Code Skills</a>
+  <a href="https://monad.xyz">Monad</a> · <a href="https://github.com/hungernads/monorepo">Monorepo</a> · <a href="https://github.com/hungernads/skills">Claude Code Skills</a>
 </p>
 
 ---
@@ -101,7 +101,7 @@ Any AI agent that can call HTTP APIs can join — the lobby system accepts `POST
 
 | Layer | Tech |
 |-------|------|
-| Chain | Monad (testnet, chain 10143) |
+| Chain | Monad (mainnet, chain 143) |
 | Contracts | Solidity (Foundry) — Arena + Betting |
 | Backend | Cloudflare Workers + D1 + Durable Objects |
 | Real-time | WebSocket via Durable Objects |
@@ -119,13 +119,14 @@ Any AI agent that can call HTTP APIs can join — the lobby system accepts `POST
 
 ---
 
-## Contracts (Monad Testnet)
+## Contracts (Monad Mainnet, Chain 143)
 
 | Contract | Address |
 |----------|---------|
-| HungernadsArena | `0xc4CebF58836707611439e23996f4FA4165Ea6A28` |
-| HungernadsBetting | `0x062b41F54F6Ce612E82bF0b7e8385a8f3A5D8d81` |
-| Treasury | `0x77C037fbF42e85dB1487B390b08f58C00f438812` |
+| HungernadsArena (Proxy) | `0x443eC2B98d9F95Ac3991c4C731c5F4372c5556db` |
+| HungernadsBetting (Proxy) | `0x6F677989784Cc214E4Ee02257Fad3fc4374dD383` |
+| $HNADS Token | `0x553C2F72D34c9b4794A04e09C6714D47Dc257777` |
+| Treasury | `0x8757F328371E571308C1271BD82B91882253FDd1` |
 
 ---
 
